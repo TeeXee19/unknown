@@ -84,6 +84,152 @@
                           </div>
                        </div>
                       
+                    <div class="row">
+                        <div class="form-group col-6">
+                        <label class="font-weight-semibold" for="age"
+                          >Age: <span class="required-feilds">*</span></label
+                        >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="age"
+                            name="age"
+                            onkeypress="return /\d/.test(String.fromCharCode(((event||window.event).which||(event||window.event).which)));"
+                            placeholder="Age"
+                            maxLength="3"
+                            required
+                          />
+                      </div>
+                        <div class="form-group col-6">
+                          <label class="font-weight-semibold" for="location"
+                            >Location: <span class="required-feilds">*</span></label
+                          >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="location"
+                              name="location"
+                              placeholder="Location"
+                              required
+                            />
+                       </div>
+                      </div>
+
+                        <div class="form-group">
+                          <label class="font-weight-semibold" for="profession"
+                            >Profession: <span class="required-feilds">*</span></label
+                          >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="profession"
+                              name="profession"
+                              placeholder="Profession"
+                              required
+                            />
+                        </div>
+                        
+
+                      <div class="row">
+                        <div class="form-group col-6">
+                          <label class="font-weight-semibold" for="location"
+                            >Do You Have A Stock Broking Account?: <span class="required-feilds">*</span></label
+                          >
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="stockAccount" id="stockAccountYes" value="yes" checked>
+                              <label class="form-check-label" for="stockAccountYes">
+                                Yes
+                              </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="stockAccount" id="stockAccountNo" value="no">
+                              <label class="form-check-label" for="stockAccountNo">
+                                No
+                              </label>
+                            </div>
+                       </div>
+                       <div class="form-group col-6">
+                          <label class="font-weight-semibold" for="location"
+                            >If Your Answer is No, Would you Like to be Linked to a Stock Broker? : <span class="required-feilds">*</span></label
+                          >
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="stockLink" id="stockLinkYes" value="yes" checked>
+                              <label class="form-check-label" for="stockLinkYes">
+                                Yes
+                              </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="stockLink" id="stockLinkNo" value="no">
+                              <label class="form-check-label" for="stockLinkNo">
+                                No
+                              </label>
+                            </div>
+                       </div>
+                      </div>
+
+                        <div class="form-group">
+                          <label class="font-weight-semibold" for="location"
+                            >Are you interested in being part of a webinar that introduces you to how you can usebroadstreetlagos in making Investment Decisions?: <span class="required-feilds">*</span></label
+                          >
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="stockInvest" id="stockInvestYes" nvalue="yes" checked>
+                              <label class="form-check-label" for="stockInvestYes">
+                                Yes
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="stockInvest" id="stockInvestNo" value="no">
+                              <label class="form-check-label" for="stockInvestNo">
+                                No
+                              </label>
+                            </div>
+                       </div>
+                       <div class="form-group">
+                          <label class="font-weight-semibold" for="profession"
+                            >Name one online data platform you use to access data about the Stock Market.: <span class="required-feilds">*</span></label
+                          >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="dataPlatform"
+                              name="dataPlatform"
+                              placeholder="Profession"
+                              required
+                            />
+                        </div>
+
+                        <div class="form-group">
+                          <label class="font-weight-semibold" for="location"
+                            >What are your Investment Objectives? <span class="required-feilds">*</span></label
+                          >
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="income" name="income" id="income">
+                            <label class="form-check-label" for="income">
+                              Income
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="growth" name="growth" id="growth" >
+                            <label class="form-check-label" for="growth">
+                              Growth
+                            </label>
+                          </div>
+
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="balancedPortfolio" name="balancedPortfolio" id="balancedPortfolio" >
+                            <label class="form-check-label" for="balancedPortfolio">
+                              Balanced Portfolio
+                            </label>
+                          </div>
+
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="ATA" name="ATA" id="ATA" >
+                            <label class="form-check-label" for="ATA">
+                              All of The Above
+                            </label>
+                          </div>
+                       </div>
+
                      <div class="row">
                         <div class="form-group col-6">
                         <label class="font-weight-semibold" for="phoneNumber"
